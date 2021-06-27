@@ -8,9 +8,9 @@ namespace AppGitHub
 {
     class Program
     {
-        static void EscreverNaTela(String txt)
+        static void EscreverNaTela()
         {
-            Console.WriteLine(txt);
+            Console.WriteLine("Primeira aplicação GitHub");
         }
         static void Main(string[] args)
         {
