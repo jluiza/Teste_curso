@@ -12,6 +12,11 @@ namespace AppGitHub
         {
             Console.WriteLine(txt);
         }
+
+        static void EscreverNaTela2(String txt)
+        {
+            EscreverNaTela(txt);
+        }
         static void Main(string[] args)
         {
             EscreverNaTela();
