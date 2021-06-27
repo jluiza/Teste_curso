@@ -17,11 +17,6 @@ namespace AppGitHub
         {
             EscreverNaTela(txt);
         }
-
-        static void EscreverNaTela3(String txt)
-        {
-            EscreverNaTela2(txt);
-        }
         static void Main(string[] args)
         {
             EscreverNaTela();
